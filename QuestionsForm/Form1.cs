@@ -19,7 +19,7 @@ namespace QuestionsForm
             timer1.Start();
         }
 
-        string textAnswers;
+        string username;
 
         int question = 0;
         int trueAnswers = 0;
@@ -31,7 +31,10 @@ namespace QuestionsForm
             switch (question)
             {
                 case 0:
-                    textAnswers = textBox1.Text; // 1 вопрос
+                    username = textBox1.Text; // 1 вопрос
+                    pictureBox1.Visible = false;
+                    label2.Visible = false;
+
 
                     label1.Text = "Относится ли Agile к архитектурным решениям?"; // 2 вопрос
                     button1.Text = "Да";
@@ -347,8 +350,26 @@ namespace QuestionsForm
                     checkBox4.Visible = false;
                     button4.Visible = false;
 
+                    label2.Visible = true;
 
-                    System.IO.File.WriteAllText("результат.txt", "Ответ на текстовый вопрос: " + textAnswers + "\n" + "Количество правильный ответов: " + trueAnswers + "\n" + "Время прохождения теста: " + minute + " минут " + sec + " секунд");
+                    if (trueAnswers <= 4)
+                    {
+                        label2.Text = "Ваша оцена: 2";
+                    }
+                    if (trueAnswers > 4 && trueAnswers < 6)
+                    {
+                        label2.Text = "Ваша оценка: 3";
+                    }
+                    if (trueAnswers == 7)
+                    {
+                        label2.Text = "Ваша оценка: 4";
+                    }
+                    if (trueAnswers == 8)
+                    {
+                        label2.Text = "Ваша оценка: 5";
+                    }
+
+                    System.IO.File.WriteAllText("результат.txt", "Имя студента: " + username + "\n" + "Количество правильный ответов: " + trueAnswers + "\n" + "Время прохождения теста: " + minute + " минут " + sec + " секунд");
                     break;
             }
             question++;
