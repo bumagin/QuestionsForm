@@ -374,7 +374,7 @@ namespace QuestionsForm
             }
             question++;
         }
-
+        
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (sec == 60)
