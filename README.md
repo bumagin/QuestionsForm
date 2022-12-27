@@ -21,12 +21,12 @@ QuestionsForms - это программа с тестовыми вопроса�
 ## Изображения программы
 
 <p>
-    <img src="https://i.ibb.co/8bZdnwV/1.png" alt="Фотография 1" width="280">
-    <img src="https://i.ibb.co/GTdv6Yg/2.png" alt="Фотографя 2" width="280">
-    <img src="https://i.ibb.co/P5t9N2d/3.png" alt="Фотография 3" width="280">
-    <img src="https://i.ibb.co/S7LRS4s/4.png" alt="Фотография 4" width="280">
-    <img src="https://i.ibb.co/tCmfXNb/5.png" alt="Фотографя 5" width="280">
-    <img src="https://i.ibb.co/zGfKHfs/6.png" alt="Фотография 6" width="280">
+    <img src="https://i.ibb.co/8bZdnwV/1.png" alt="Фотография 1" width="270">
+    <img src="https://i.ibb.co/GTdv6Yg/2.png" alt="Фотографя 2" width="270">
+    <img src="https://i.ibb.co/P5t9N2d/3.png" alt="Фотография 3" width="270">
+    <img src="https://i.ibb.co/S7LRS4s/4.png" alt="Фотография 4" width="270">
+    <img src="https://i.ibb.co/tCmfXNb/5.png" alt="Фотографя 5" width="270">
+    <img src="https://i.ibb.co/zGfKHfs/6.png" alt="Фотография 6" width="270">
 </p>
 
 ## Разработчик
